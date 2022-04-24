@@ -5,10 +5,15 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
   <style type="text/css">
+    .empty-place
+    {
+    flex-grow: 1;
+    }
     .js-play-button,
     .js-pause-button,
     .js-mute-button,
-    .js-volume-button
+    .js-volume-button,
+    .js-fullscreen-button
      {
       height:70px;
       width:70px;
@@ -20,6 +25,7 @@
       background-color:transparent
     }
     .button-panel {
+      display: flex;
       background-color:black;
     }
     .js-video-container {
@@ -53,6 +59,10 @@
     </button>
     <button class="js-volume-button" hidden>
       <i class="fa fa-volume-up" aria-hidden="true"></i>
+    </button>
+    <div class="empty-place"></div>
+    <button class="js-fullscreen-button">
+      <i class="fa fa-expand" aria-hidden="true"></i>
     </button>
       </div>
   </div>
