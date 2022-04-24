@@ -3,7 +3,7 @@
 
 ![скриншот](https://dvmn.org/media/21.png)
 
-###Кнопки
+### Кнопки
 - play/pause
 - mute
 - fullscreen
